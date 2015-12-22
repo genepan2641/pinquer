@@ -1,0 +1,151 @@
+body {
+  font-family: "Helvetica Neue","Microsoft Yahei",sans-serif,serif;
+  background: url("../img/bg.png") repeat;
+  margin-top: 80px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+hr {
+  border-top: 1.5px solid #bcbcbc;
+  padding: 10px 0; }
+
+nav * {
+  font-weight: bold; }
+
+nav .container {
+  padding: 15px; }
+
+.navbar-brand,
+.navbar-brand > img {
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 50px; }
+
+#cover > img {
+  width: 100%; }
+
+#hot-courses,
+#hot-essays {
+  text-align: center;
+  width: 90%;
+  margin: 20px auto; }
+  #hot-courses h2,
+  #hot-essays h2 {
+    color: #bcbcbc;
+    width: 100%;
+    display: inline-block; }
+  #hot-courses .home-course,
+  #hot-courses .home-essay,
+  #hot-essays .home-course,
+  #hot-essays .home-essay {
+    width: 23%;
+    margin-left: 1.6%;
+    margin-bottom: 4.8%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0; }
+    #hot-courses .home-course h3,
+    #hot-courses .home-essay h3,
+    #hot-essays .home-course h3,
+    #hot-essays .home-essay h3 {
+      width: 80%;
+      text-align: left;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #932009;
+      letter-spacing: 2px;
+      padding-left: 20px; }
+    #hot-courses .home-course hr,
+    #hot-courses .home-essay hr,
+    #hot-essays .home-course hr,
+    #hot-essays .home-essay hr {
+      padding: 0;
+      margin: 0 20px;
+      border-top: 2px solid #f4f4f4; }
+    #hot-courses .home-course .prof,
+    #hot-courses .home-course .post-time,
+    #hot-courses .home-essay .prof,
+    #hot-courses .home-essay .post-time,
+    #hot-essays .home-course .prof,
+    #hot-essays .home-course .post-time,
+    #hot-essays .home-essay .prof,
+    #hot-essays .home-essay .post-time {
+      width: 80%;
+      text-align: left;
+      font-size: 1.3rem;
+      padding-top: 5px;
+      padding-left: 20px;
+      color: #932009; }
+    #hot-courses .home-course .bottom,
+    #hot-courses .home-essay .bottom,
+    #hot-essays .home-course .bottom,
+    #hot-essays .home-essay .bottom {
+      background-color: #209e40;
+      width: 100%;
+      border-radius: 5px;
+      color: white;
+      font-size: 1.3rem;
+      margin: 0;
+      margin-top: 10%;
+      padding-top: 4%;
+      padding-bottom: 4%; }
+      #hot-courses .home-course .bottom p,
+      #hot-courses .home-essay .bottom p,
+      #hot-essays .home-course .bottom p,
+      #hot-essays .home-essay .bottom p {
+        margin: 0px 20px;
+        text-align: left; }
+        #hot-courses .home-course .bottom p .post-num,
+        #hot-courses .home-course .bottom p .review-num,
+        #hot-courses .home-essay .bottom p .post-num,
+        #hot-courses .home-essay .bottom p .review-num,
+        #hot-essays .home-course .bottom p .post-num,
+        #hot-essays .home-course .bottom p .review-num,
+        #hot-essays .home-essay .bottom p .post-num,
+        #hot-essays .home-essay .bottom p .review-num {
+          margin-left: 3%; }
+  #hot-courses .home-essay .essay-type,
+  #hot-essays .home-essay .essay-type {
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.3rem;
+    font-weight: bold; }
+  #hot-courses .home-essay .feedback,
+  #hot-essays .home-essay .feedback {
+    background-color: #107b5d; }
+  #hot-courses .home-essay .ask,
+  #hot-essays .home-essay .ask {
+    background-color: #f3ae1e; }
+  #hot-courses .home-essay .notice,
+  #hot-essays .home-essay .notice {
+    background-color: #f0542a; }
+
+#footerDomain {
+  position: relative;
+  display: inline-block;
+  bottom: 0;
+  width: 100%;
+  height: 100px; }
+  #footerDomain .bottom-info {
+    width: 100%;
+    background-color: #209e40;
+    text-align: center; }
+    #footerDomain .bottom-info img {
+      width: 8%;
+      margin: auto;
+      margin: 20px; }
+    #footerDomain .bottom-info p {
+      color: white;
+      font-size: 1rem;
+      padding-bottom: 2%;
+      margin-bottom: 0; }
+
+/*# sourceMappingURL=home.css.map */
