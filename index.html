@@ -199,7 +199,7 @@
     <hr>
     <div class="row">
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 feedback" data-type="feedback">
                 <p class="essay-type feedback">心得</p>
                 <h3>有掛</h3>
                 <hr>
@@ -214,7 +214,7 @@
         </a>
         
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 ask" data-type="ask">
                 <p class="essay-type ask">提問</p>
                 <h3>有沒有人知道分組名單?</h3>
                 <hr>
@@ -229,7 +229,7 @@
             </div>
         </a>
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 notice" data-type="notice">
                 <p class="essay-type notice">公告</p>
                 <h3>下周開始換教室</h3>
                 <hr>
@@ -244,7 +244,7 @@
             </div>    
         </a>
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 feedback" data-type="feedback">
                 <p class="essay-type feedback">心得</p>
                 <h3>有掛</h3>
                 <hr>
@@ -259,7 +259,7 @@
         </a>
         
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 ask" data-type="ask">
                 <p class="essay-type ask">提問</p>
                 <h3>有沒有人知道分組名單?</h3>
                 <hr>
@@ -274,7 +274,7 @@
             </div>
         </a>
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 notice" data-type="notice">
                 <p class="essay-type notice">公告</p>
                 <h3>下周開始換教室</h3>
                 <hr>
@@ -287,9 +287,9 @@
 
                 </div>        
             </div>    
-        </a>
+        </a>        
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 feedback" data-type="feedback">
                 <p class="essay-type feedback">心得</p>
                 <h3>有掛</h3>
                 <hr>
@@ -304,7 +304,7 @@
         </a>
         
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 ask" data-type="ask">
                 <p class="essay-type ask">提問</p>
                 <h3>有沒有人知道分組名單?</h3>
                 <hr>
@@ -319,7 +319,7 @@
             </div>
         </a>
         <a href="">
-            <div class="home-essay col-md-3">
+            <div class="home-essay col-md-3 notice" data-type="notice">
                 <p class="essay-type notice">公告</p>
                 <h3>下周開始換教室</h3>
                 <hr>
@@ -332,12 +332,85 @@
 
                 </div>        
             </div>    
-        </a>
+        </a>        
+
       
     </div>    
 </section>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+    
+(function(){
+    var homeCourse = $('.home-course'),
+        logoGreen = '#209e40',
+        brown = '#932009';
+    // function hoverColor (childClass,color) {
+    //     $(this)
+    //         .children('h3').css('color', color)
+    //         .end()
+    //         .children('.post-time').css('color', color);  
+    // }
 
+
+
+    homeCourse.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', logoGreen)
+            .end()
+            .children('.prof').css('color', logoGreen);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.prof').css('color', brown);
+    });
+
+    var homeFeedback = $(".home-essay[data-type='feedback']"),
+        homeAsk = $(".home-essay[data-type='ask']"),
+        homeNotice = $(".home-essay[data-type='notice']"),
+        essayGreen = '#107b5d',
+        essayOrg = '#f0542a',
+        essayYellow = '#f3ae1e';
+
+
+    homeFeedback.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', essayGreen)
+            .end()
+            .children('.post-time').css('color', essayGreen);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.post-time').css('color', brown);
+    });
+    homeAsk.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', essayYellow)
+            .end()
+            .children('.post-time').css('color', essayYellow);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.post-time').css('color', brown);
+    });
+    homeNotice.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', essayOrg)
+            .end()
+            .children('.post-time').css('color', essayOrg);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.post-time').css('color', brown);
+    });
+})();
+
+
+</script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
