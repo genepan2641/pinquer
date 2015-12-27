@@ -1,10 +1,10 @@
 body {
   font-family: "Helvetica Neue","Microsoft Yahei",sans-serif,serif;
-  background: url("../img/bg.png") repeat;
+  background: url("../img/bg.jpg") repeat;
   margin-top: 80px; }
 
 hr {
-  border-top: 1.5px solid #bcbcbc;
+  border-top: 2px solid #209e40;
   padding: 10px 0; }
 
 nav * {
@@ -36,7 +36,7 @@ nav .container {
   width: 90%;
   margin: 20px auto; }
   .list-col-4 h2 {
-    color: #bcbcbc;
+    color: #209e40;
     width: 100%;
     display: inline-block; }
   .list-col-4 .home-course,
@@ -50,21 +50,24 @@ nav .container {
     float: left;
     background-color: white;
     border-radius: 6px;
-    padding: 0; }
+    padding: 0;
+    -webkit-box-shadow: 0 0 5px 0 #A1A1A1;
+    box-shadow: 0 0 5px 0 #A1A1A1; }
     .list-col-4 .home-course h3,
     .list-col-4 .home-essay h3 {
       width: 80%;
       text-align: left;
-      font-size: 1.5rem;
+      font-size: 1.7rem;
       font-weight: bold;
       color: #932009;
       letter-spacing: 2px;
-      padding-left: 20px; }
+      padding-left: 20px;
+      margin: 20px 0 15px 0; }
     .list-col-4 .home-course hr,
     .list-col-4 .home-essay hr {
       padding: 0;
-      margin: 0 20px;
-      border-top: 2px solid #f4f4f4; }
+      margin: 0;
+      border-top: 1px solid #E5E5E5; }
     .list-col-4 .home-course .prof,
     .list-col-4 .home-course .post-time,
     .list-col-4 .home-essay .prof,
@@ -72,18 +75,18 @@ nav .container {
       width: 80%;
       text-align: left;
       font-size: 1.3rem;
-      padding-top: 5px;
+      padding-top: 10px;
       padding-left: 20px;
       color: #932009; }
     .list-col-4 .home-course .bottom,
     .list-col-4 .home-essay .bottom {
       background-color: #209e40;
       width: 100%;
-      border-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
       color: white;
       font-size: 1.3rem;
-      margin: 0;
-      margin-top: 10%;
+      margin-top: 60%;
       padding-top: 4%;
       padding-bottom: 4%; }
       .list-col-4 .home-course .bottom p,
@@ -96,18 +99,20 @@ nav .container {
         .list-col-4 .home-essay .bottom p .review-num {
           margin-left: 3%; }
   .list-col-4 .home-essay .essay-type {
-    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
     color: white;
     text-align: left;
     padding-left: 20px;
+    margin: 0;
     font-size: 1.3rem;
-    font-weight: bold; }
+    background-color: #e9e9e9; }
   .list-col-4 .home-essay .feedback {
-    background-color: #107b5d; }
+    background-color: #107B5D; }
   .list-col-4 .home-essay .ask {
-    background-color: #f3ae1e; }
-  .list-col-4 .home-essay .notice {
     background-color: #f0542a; }
+  .list-col-4 .home-essay .notice {
+    background-color: #f3ae1e; }
 
 #footerDomain {
   position: relative;
@@ -142,7 +147,9 @@ nav .container {
   border-bottom: #ededed 2px solid;
   border-radius: 10px;
   min-height: 190px;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  -webkit-box-shadow: 0 0 5px 0 #A1A1A1;
+  box-shadow: 0 0 5px 0 #A1A1A1; }
 #course .course-info h3 {
   color: #209e40;
   font-weight: bold;

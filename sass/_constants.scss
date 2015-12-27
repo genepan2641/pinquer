@@ -1,7 +1,7 @@
 $lightGray: #bcbcbc;
 $darkGray: darken($lightGray, 10%);
 $logoGreen: #209e40;
-$essayGreen: #107b5d;
+$essayGreen: #107B5D;
 $essayOrg: #f0542a;
 $essayYellow: #f3ae1e;
 $brown: #932009;
@@ -22,13 +22,14 @@ $brown: #932009;
 
 body {
 	font-family: "Helvetica Neue","Microsoft Yahei",sans-serif,serif;
-	background: url("../img/bg.png") repeat;
+	// background-color: #e9e9e9;
+	background: url("../img/bg.jpg") repeat;
 	margin-top: 80px;
 
 }
 
 hr {
-	border-top: 1.5px solid $lightGray;
+	border-top: 2px solid $logoGreen;
 	padding: 10px 0;
 }
 
@@ -68,7 +69,7 @@ nav .container {
 	// padding-top: 30px;
 	margin:20px auto;
 	h2 {
-		color: $lightGray;
+		color: $logoGreen;
 		width: 100%;
 		display:inline-block;
 	}
@@ -77,38 +78,41 @@ nav .container {
 		@include grid(4,23%,100%);
 		background-color: white;	
 		border-radius: 6px;
-		padding: 0;	
+		padding: 0;
+		-webkit-box-shadow: 0 0 5px 0 #A1A1A1;
+		box-shadow: 0 0 5px 0 #A1A1A1;
 		h3 {
 			width: 80%;
 			text-align: left;
-			font-size: 1.5rem;
+			font-size: 1.7rem;
 			font-weight: bold;
 			color: $brown;
 			letter-spacing: 2px;
 			padding-left:20px;
+			margin: 20px 0 15px 0;
 		}
 		hr {
 			padding: 0;
-			margin:0 20px;
-			border-top: 2px solid #f4f4f4;
+			margin: 0;
+			border-top: 1px solid #E5E5E5;
 		}
 		.prof,
 		.post-time {
 			width: 80%;
 			text-align: left;
 			font-size: 1.3rem;
-			padding-top: 5px;
+			padding-top: 10px;
 			padding-left: 20px;
 			color: $brown;
 		}
 		.bottom {
 			background-color: $logoGreen;
 			width: 100%;
-			border-radius: 5px;
+			border-bottom-right-radius: 5px;
+			border-bottom-left-radius: 5px;
 			color: white;
 			font-size: 1.3rem;
-			margin: 0;
-			margin-top: 10%;
+			margin-top: 60%;
 			padding-top:4%;
 			padding-bottom:4%;
 			p {
@@ -124,21 +128,24 @@ nav .container {
 	}
 	.home-essay {
 		.essay-type {
-			border-radius:5px;
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
 			color: white;
 			text-align: left;
 			padding-left: 20px;
+			margin: 0;
 			font-size: 1.3rem;
-			font-weight: bold;
+			// font-weight: bold;
+			background-color: #e9e9e9;
 		}
 		.feedback {
 			background-color: $essayGreen;
 		}
 		.ask {
-			background-color: $essayYellow;
+			background-color: $essayOrg;
 		}
 		.notice {
-			background-color: $essayOrg;
+			background-color: $essayYellow;
 		}
 	}
 }
