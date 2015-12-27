@@ -1601,7 +1601,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 1120px;
   }
 }
 .container-fluid {
@@ -2277,6 +2277,10 @@ th {
   line-height: 1.42857143;
   vertical-align: top;
   border-top: 1px solid #ddd;
+}
+.table tr:first-child th,
+.table tr:first-child td{
+  border-top: none;
 }
 .table > thead > tr > th {
   vertical-align: bottom;

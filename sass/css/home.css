@@ -8,8 +8,7 @@ hr {
   padding: 10px 0; }
 
 nav * {
-  font-weight: bold;
-  font-size: 14px; }
+  font-weight: bold; }
 
 nav .container {
   padding: 15px; }
@@ -20,39 +19,36 @@ nav .container {
   padding-left: 15px;
   height: 50px; }
 
-.site-map {
-  margin: 0 0 20px 100px;
-  padding-top: 20px;
-  color: #209e40; }
-  .site-map a {
-    font-size: 14px;
-    color: #209e40; }
-    .site-map a:hover {
-      color: black;
-      text-decoration: none; }
+#cover > img {
+  width: 100%; }
 
-.list-col-4 {
+#hot-courses,
+#hot-essays {
   text-align: center;
   width: 90%;
   margin: 20px auto; }
-  .list-col-4 h2 {
+  #hot-courses h2,
+  #hot-essays h2 {
     color: #bcbcbc;
     width: 100%;
     display: inline-block; }
-  .list-col-4 .home-course,
-  .list-col-4 .home-essay {
+  #hot-courses .home-course,
+  #hot-courses .home-essay,
+  #hot-essays .home-course,
+  #hot-essays .home-essay {
     width: 23%;
     margin-left: 1.6%;
     margin-bottom: 4.8%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    float: left;
     background-color: white;
     border-radius: 6px;
     padding: 0; }
-    .list-col-4 .home-course h3,
-    .list-col-4 .home-essay h3 {
+    #hot-courses .home-course h3,
+    #hot-courses .home-essay h3,
+    #hot-essays .home-course h3,
+    #hot-essays .home-essay h3 {
       width: 80%;
       text-align: left;
       font-size: 1.5rem;
@@ -60,23 +56,31 @@ nav .container {
       color: #932009;
       letter-spacing: 2px;
       padding-left: 20px; }
-    .list-col-4 .home-course hr,
-    .list-col-4 .home-essay hr {
+    #hot-courses .home-course hr,
+    #hot-courses .home-essay hr,
+    #hot-essays .home-course hr,
+    #hot-essays .home-essay hr {
       padding: 0;
       margin: 0 20px;
       border-top: 2px solid #f4f4f4; }
-    .list-col-4 .home-course .prof,
-    .list-col-4 .home-course .post-time,
-    .list-col-4 .home-essay .prof,
-    .list-col-4 .home-essay .post-time {
+    #hot-courses .home-course .prof,
+    #hot-courses .home-course .post-time,
+    #hot-courses .home-essay .prof,
+    #hot-courses .home-essay .post-time,
+    #hot-essays .home-course .prof,
+    #hot-essays .home-course .post-time,
+    #hot-essays .home-essay .prof,
+    #hot-essays .home-essay .post-time {
       width: 80%;
       text-align: left;
       font-size: 1.3rem;
       padding-top: 5px;
       padding-left: 20px;
       color: #932009; }
-    .list-col-4 .home-course .bottom,
-    .list-col-4 .home-essay .bottom {
+    #hot-courses .home-course .bottom,
+    #hot-courses .home-essay .bottom,
+    #hot-essays .home-course .bottom,
+    #hot-essays .home-essay .bottom {
       background-color: #209e40;
       width: 100%;
       border-radius: 5px;
@@ -86,27 +90,37 @@ nav .container {
       margin-top: 10%;
       padding-top: 4%;
       padding-bottom: 4%; }
-      .list-col-4 .home-course .bottom p,
-      .list-col-4 .home-essay .bottom p {
+      #hot-courses .home-course .bottom p,
+      #hot-courses .home-essay .bottom p,
+      #hot-essays .home-course .bottom p,
+      #hot-essays .home-essay .bottom p {
         margin: 0px 20px;
         text-align: left; }
-        .list-col-4 .home-course .bottom p .post-num,
-        .list-col-4 .home-course .bottom p .review-num,
-        .list-col-4 .home-essay .bottom p .post-num,
-        .list-col-4 .home-essay .bottom p .review-num {
+        #hot-courses .home-course .bottom p .post-num,
+        #hot-courses .home-course .bottom p .review-num,
+        #hot-courses .home-essay .bottom p .post-num,
+        #hot-courses .home-essay .bottom p .review-num,
+        #hot-essays .home-course .bottom p .post-num,
+        #hot-essays .home-course .bottom p .review-num,
+        #hot-essays .home-essay .bottom p .post-num,
+        #hot-essays .home-essay .bottom p .review-num {
           margin-left: 3%; }
-  .list-col-4 .home-essay .essay-type {
+  #hot-courses .home-essay .essay-type,
+  #hot-essays .home-essay .essay-type {
     border-radius: 5px;
     color: white;
     text-align: left;
     padding-left: 20px;
     font-size: 1.3rem;
     font-weight: bold; }
-  .list-col-4 .home-essay .feedback {
+  #hot-courses .home-essay .feedback,
+  #hot-essays .home-essay .feedback {
     background-color: #107b5d; }
-  .list-col-4 .home-essay .ask {
+  #hot-courses .home-essay .ask,
+  #hot-essays .home-essay .ask {
     background-color: #f3ae1e; }
-  .list-col-4 .home-essay .notice {
+  #hot-courses .home-essay .notice,
+  #hot-essays .home-essay .notice {
     background-color: #f0542a; }
 
 #footerDomain {
@@ -128,8 +142,5 @@ nav .container {
       font-size: 1rem;
       padding-bottom: 2%;
       margin-bottom: 0; }
-
-#cover > img {
-  width: 100%; }
 
 /*# sourceMappingURL=home.css.map */

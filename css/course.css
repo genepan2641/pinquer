@@ -129,7 +129,61 @@ nav .container {
       padding-bottom: 2%;
       margin-bottom: 0; }
 
-#cover > img {
-  width: 100%; }
+#course .course-card {
+  width: 45%;
+  margin-left: 3.33333%;
+  margin-bottom: 10%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 0;
+  background-color: white;
+  border-bottom: #ededed 2px solid;
+  border-radius: 10px;
+  min-height: 190px;
+  padding: 10px 20px; }
+#course .course-info h3 {
+  color: #209e40;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px 0 0 5px; }
 
-/*# sourceMappingURL=home.css.map */
+table {
+  margin: 30px 0 10px 0; }
+  table tr > th {
+    color: #a3a3a3;
+    font-weight: normal; }
+  table tr > td {
+    color: #209e40; }
+
+.course-rating hr {
+  margin: 0;
+  padding: 0;
+  border-top: 1.5px solid #f4f4f4; }
+.course-rating .rates-row {
+  margin: 10px 0 10px 0; }
+  .course-rating .rates-row p {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle; }
+    .course-rating .rates-row p:first-child {
+      border-radius: 5px;
+      border: 2px solid #209e40;
+      width: 20%;
+      padding: 5px;
+      color: #209e40;
+      font-weight: bold;
+      letter-spacing: 2px; }
+    .course-rating .rates-row p:nth-child(2) {
+      width: 20%;
+      font-size: 1.4em;
+      font-weight: bold; }
+  .course-rating .rates-row #flat-slider {
+    width: 50%;
+    display: inline-block;
+    left: 3%;
+    vertical-align: middle; }
+
+/*# sourceMappingURL=course.css.map */
