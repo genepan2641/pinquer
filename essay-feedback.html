@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="Shortcut Icon" type="image/x-icon" href="img/shortcut_icon.png" />
+    <title>Pinquer 評課部落</title>
+    <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css"> -->
+    <link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.min.css">    
+    <link rel="stylesheet" href="css/slider-pips.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/essay.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <!-- <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'> -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html"><img src="img/pinquer_logo.png" alt=""></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                  <li>
+                    <a href="" class="page-scroll">瀏覽課程</a>
+                  </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">登入註冊</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="輸入課名">
+                  </div>
+                  <button type="submit" class="btn btn-default">搜尋</button>
+                </form>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+<div class="site-map">
+    <a href="">首頁</a>>
+    <a href="">瀏覽課程</a>>
+    <a href="course.html">認識星空</a>>
+    <a href="">基本上這是一篇反推文</a>
+</div>
+
+<section class="container" id="course">
+<div class="row">
+    <aside class=" col-lg-5 hidden-lg">
+        <div class="course-info cardstyle course-card ">
+            <a href="course.html"><h3>認識星空(2學分)</h3></a>
+            <table class="table table-condensed">
+            <tr>
+                <th>授課老師</th>
+                <th>開課單位</th>
+                <th>地點</th>
+                <th>時間</th>
+            </tr>
+            <tr>    
+                <td>孫維新</td>
+                <td>教務處通識中心</td>
+                <td>舜文大講堂</td>
+                <td>一56</td>
+            </tr>
+            </table>
+        </div>
+        <div class="user-rating cardstyle userrate-card">
+            <p class="title">作者評分</p>
+            <div class="rates-col">
+                <p>實用性</p>
+                <p>4.8</p>
+            </div>
+            <!-- <hr> -->
+            <div class="rates-col">
+                <p>困難度</p>
+                <p>2.5</p>
+            </div>
+            <!-- <hr> -->
+            <div class="rates-col">
+                <p>忙碌度</p>
+                <p>3.5</p>
+            </div> 
+        </div>
+        <div class="course-rating cardstyle course-card">
+            <p class="title">網站總評</p>
+            <div class="rates-row">
+                <p>實用性</p>
+                <p>4.8</p>
+                <div class="flat-slider1" id="flat-slider"></div>
+                <!-- <input type="text" class="js-range" id="slider-1"> -->
+            </div>
+            <hr>
+            <div class="rates-row">
+                <p>困難度</p>
+                <p>2.5</p>
+                <div class="flat-slider2" id="flat-slider"></div>
+                <!-- <input type="text" class="js-range" id="slider-2"> -->
+            </div>
+            <hr>
+            <div class="rates-row">
+                <p>忙碌度</p>
+                <p>3.5</p>
+                <div class="flat-slider3" id="flat-slider"></div>
+                <!-- <input type="text" class="js-range" id="slider-3"> -->
+            </div> 
+        </div>
+        
+    </aside>
+    <div class="col-lg-7">
+        <div class="article cardstyle">
+            <h4 class="article-title">基本上這是一篇反推文</h4>
+            <hr>
+            <p>類別：心得</p>
+            <p>發布於：Jul/06/2014<p>
+            <img src="img/photo.png" alt="">
+            <p>作者：ace99927</p>
+            <p>看過貓空選課版的人就會知道，這個老師特色是上課幽默風趣，人氣爆表，
+    知識淵博，名稱是《認識星空》，卻夾雜了人生的智慧歷練，是一門政大必修的課－－
+    但如果你想選，請先考慮下面幾件事：
+    （一）黑暗陷阱之一，人潮
+    這門課經由各屆學長姐傳下來，孫教授的形象在選課板根本經過造神化了，
+    因此修這門課的人非　常　多。
+    五六節是兩點上課，一般來說大家吃個便當之後大概一點半開始前往教室，
+    但這門課一點半沒有位子，更扯的是一點十分來還是沒有位子，
+    一點呢？只剩下少數前排的搖滾區，後面還是沒有位子。
+    最後我只能一下課就去藝中吃午餐，吃完後十二點半，
+    跟「大批人潮」痴痴坐在舜文講堂前，等著門開。
+    每一次上課都是一次戰鬥，還有人用糟糕的黑暗兵法，
+    一進教室就開始灑他的鉛筆盒文具和文件，把兩三排位子收割走；</p>
+        
+        </div>
+        <p class="comment-seperate">留言區</p>  
+        <div class="comment">
+            <div class="typein only-shadow">
+                <img src="img/photo.png" alt="">
+                <textarea></textarea>
+                <button type="submit" class="btn btn-default">留言</button>   
+            </div>
+            <div class="past-comment only-shadow">
+                <img src="img/photo.png" alt="">
+                <div class="comment-content">
+                    <p class="user-name">我是同學A</p>
+                    <p class="post-time">Dec/10/2015</p>
+                    <p>我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言</p>
+                </div>
+            </div>
+            <div class="past-comment only-shadow">
+                <img src="img/photo.png" alt="">
+                <div class="comment-content">
+                    <p class="user-name">我是同學B</p>
+                    <p class="post-time">Dec/10/2015</p>
+                    <p>我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言我是留言</p>
+                </div>
+            </div>            
+        </div>  
+    </div>
+
+    <aside class=" col-lg-5 hidden-md hidden-sm hidden-xs">
+        <div class="course-info cardstyle course-card ">
+            <a href="course.html"><h3>認識星空(2學分)</h3></a>
+            <table class="table table-condensed">
+            <tr>
+                <th>授課老師</th>
+                <th>開課單位</th>
+                <th>地點</th>
+                <th>時間</th>
+            </tr>
+            <tr>    
+                <td>孫維新</td>
+                <td>教務處通識中心</td>
+                <td>舜文大講堂</td>
+                <td>一56</td>
+            </tr>
+            </table>
+        </div>
+        <div class="user-rating cardstyle userrate-card">
+            <p class="title">作者評分</p>
+            <div class="rates-col">
+                <p>實用性</p>
+                <p>4.8</p>
+            </div>
+            <!-- <hr> -->
+            <div class="rates-col">
+                <p>困難度</p>
+                <p>2.5</p>
+            </div>
+            <!-- <hr> -->
+            <div class="rates-col">
+                <p>忙碌度</p>
+                <p>3.5</p>
+            </div> 
+        </div>
+        <div class="course-rating cardstyle course-card">
+            <p class="title">網站總評</p>
+            <div class="rates-row">
+                <p>實用性</p>
+                <p>4.8</p>
+                <div class="flat-slider1" id="flat-slider"></div>
+                <!-- <input type="text" class="js-range" id="slider-1"> -->
+            </div>
+            <hr>
+            <div class="rates-row">
+                <p>困難度</p>
+                <p>2.5</p>
+                <div class="flat-slider2" id="flat-slider"></div>
+                <!-- <input type="text" class="js-range" id="slider-2"> -->
+            </div>
+            <hr>
+            <div class="rates-row">
+                <p>忙碌度</p>
+                <p>3.5</p>
+                <div class="flat-slider3" id="flat-slider"></div>
+                <!-- <input type="text" class="js-range" id="slider-3"> -->
+            </div> 
+        </div>
+        
+    </aside>
+    
+</div>
+</section>
+
+
+<!-- <script src="https://code.jquery.com/jquery-2.1.1.js"></script> -->
+<!-- <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.js"></script> -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/slider-pips.js"></script>
+<script type="text/javascript">
+    
+(function(){
+
+
+    $(".flat-slider1")
+        .slider({
+            min:0,
+            max:5,
+            step:0.1,
+            range: "max",
+            value: 4.8,
+
+    })
+     .slider("pips", {
+        step: 10,
+        first: false,
+        last: false,
+        rest: false,
+
+    })
+    .slider("float");
+
+    $(".flat-slider2")
+        .slider({
+            min:0,
+            max:5,
+            step:0.1,
+            range: "max",
+            value: 2.5,
+
+    })
+     .slider("pips", {
+        step: 10,
+        first: false,
+        last: false,
+        rest: false,
+
+    })
+    .slider("float");   
+
+    $(".flat-slider3")
+        .slider({
+            min:0,
+            max:5,
+            step:0.1,
+            range: "max",
+            value: 3.5,
+
+    })
+     .slider("pips", {
+        step: 10,
+        first: false,
+        last: false,
+        rest: false,
+    })
+    .slider("float");    
+
+    var homeCourse = $('.home-course'),
+        logoGreen = '#209e40',
+        brown = '#932009';
+    // function hoverColor (childClass,color) {
+    //     $(this)
+    //         .children('h3').css('color', color)
+    //         .end()
+    //         .children('.post-time').css('color', color);  
+    // }
+
+
+
+    homeCourse.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', logoGreen)
+            .end()
+            .children('.prof').css('color', logoGreen);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.prof').css('color', brown);
+    });
+
+    var homeFeedback = $(".home-essay[data-type='feedback']"),
+        homeAsk = $(".home-essay[data-type='ask']"),
+        homeNotice = $(".home-essay[data-type='notice']"),
+        essayGreen = '#107b5d',
+        essayOrg = '#f0542a',
+        essayYellow = '#f3ae1e';
+
+
+        homeFeedback.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', essayGreen)
+            .end()
+            .children('.post-time').css('color', essayGreen);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.post-time').css('color', brown);
+    });
+    homeAsk.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', essayOrg)
+            .end()
+            .children('.post-time').css('color', essayOrg);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.post-time').css('color', brown);
+    });
+    homeNotice.on('mouseenter', function(){
+        $(this)
+            .children('h3').css('color', essayYellow)
+            .end()
+            .children('.post-time').css('color', essayYellow);
+    }).on('mouseleave', function(){
+        $(this)
+            .children('h3').css('color', brown)
+            .end()
+            .children('.post-time').css('color', brown);
+    });
+})();
+
+
+</script>
+
+    
+<footer id="footerDomain">
+    <div class="bottom-info">
+    <img src="img/logo_white.png" alt="">
+      <p>COPYRIGHT © ALL RIGHTS RESERVED.</p>
+    </div>
+</footer>
+</body>
+
+</html>
