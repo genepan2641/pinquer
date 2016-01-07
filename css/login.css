@@ -1,0 +1,132 @@
+body {
+  font-family: "Helvetica Neue","Microsoft Yahei",sans-serif,serif;
+  background: url("../img/bg.jpg") repeat;
+  margin-top: 80px; }
+
+hr {
+  border-top: 2px solid #209e40;
+  padding: 10px 0; }
+
+nav * {
+  font-weight: bold;
+  font-size: 14px; }
+
+nav .container {
+  padding: 15px; }
+
+.navbar-brand,
+.navbar-brand > img {
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 50px; }
+
+.site-map {
+  margin: 0 0 20px 100px;
+  padding-top: 20px;
+  color: #209e40; }
+  .site-map a {
+    font-size: 14px;
+    color: #209e40; }
+    .site-map a:hover {
+      color: black;
+      text-decoration: none; }
+
+
+
+#footerDomain {
+  position: relative;
+  display: inline-block;
+  bottom: 0;
+  width: 100%;
+  height: 100px; }
+  #footerDomain .bottom-info {
+    width: 100%;
+    background-color: #209e40;
+    text-align: center; }
+    #footerDomain .bottom-info img {
+      width: 8%;
+      margin: auto;
+      margin: 20px; }
+    #footerDomain .bottom-info p {
+      color: white;
+      font-size: 1rem;
+      padding-bottom: 2%;
+      margin-bottom: 0; }
+
+.typein {
+	width:30%;
+	margin: auto;
+}
+.typein button {
+	display: block;
+	margin: 10px auto;
+	width: 100%;
+	background-color: #209031;
+	color: white;
+}
+.login-box {
+  width: 100%;
+/*   margin-left: 3.33333%; */
+  margin: 10% auto;
+  margin-bottom: 10%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+/*   margin-bottom: 0; */
+  background-color: white;
+  border-bottom: #ededed 2px solid;
+  border-radius: 10px;
+  min-height: 190px;
+  padding: 10px 20px;
+  text-align:center;
+  -webkit-box-shadow: 0 0 5px 0 #A1A1A1;
+  box-shadow: 0 0 5px 0 #A1A1A1; }
+
+.login-box input,
+.sign-up-box input {
+	width: 100%;
+}
+
+h5{
+		text-align: left;
+	}
+
+
+.sign-up-box {
+  width: 100%;
+/*   margin-left: 3.33333%; */
+  margin: auto;
+  margin-bottom: 10%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  
+  background-color: white;
+  border-bottom: #ededed 2px solid;
+  border-radius: 10px;
+  min-height: 190px;
+  padding: 10px 20px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 5px 0 #A1A1A1;
+  box-shadow: 0 0 5px 0 #A1A1A1; }
+  
+
+@media  (max-width: 1024px) {
+  .typein {
+    width: 40%;
+  }
+}
+@media  (max-width: 768px) {
+  .typein {
+    width: 50%;
+  }
+}
+@media  (max-width: 480px) {
+  .typein {
+    width: 85%;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */
